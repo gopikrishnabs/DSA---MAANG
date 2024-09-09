@@ -1,3 +1,6 @@
+#TC: O(N+E), where N is the number of rooms, and E is the total number of keys and the TC remains the same for BFS.
+
+#SC: O(N), to store roomUnlocked and stack space and queue used by dfs and bfs function respectively.
 class Solution:
     def canVisitAllRoomsDFS(self, rooms: list[list[int]]) -> bool:
         
